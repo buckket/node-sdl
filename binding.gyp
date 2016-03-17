@@ -43,9 +43,9 @@
 		], [
 			'OS=="linux" and target_arch=="x64"', {
 				'libraries': [
-					'/usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0',
-					'/usr/lib/x86_64-linux-gnu/libSDL2_image-2.0.so.0',
-					'/usr/lib/x86_64-linux-gnu/libSDL2_ttf-2.0.so.0'
+					'/usr/lib/libSDL2-2.0.so.0',
+					'/usr/lib/libSDL2_image-2.0.so.0',
+					'/usr/lib/libSDL2_ttf-2.0.so.0'
 				],
 				'include_dirs': [
 					'/usr/include/SDL2'
